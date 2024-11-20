@@ -1,0 +1,16 @@
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "..."
+  password: "..."
+  dbname: "data_warehouse"
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+
+schemas:
+  raw_schema: "raw"
+  staging_schema: "staging"
+  prod_schema: "prod"

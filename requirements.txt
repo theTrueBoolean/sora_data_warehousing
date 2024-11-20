@@ -1,0 +1,7 @@
+pandas==2.1.4
+pydantic
+loguru
+sqlalchemy
+psycopg2-binary
+apache-airflow
+pytest
